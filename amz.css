@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    position: relative;
+    background-color:#0f1111;
+    height:60px;
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: space-evenly;
+}
+
+.border{
+    border:transparent;
+}
+
+.border:hover{
+    border-radius: 4px;
+    border: 1.5px solid white;
+}
+/**box1**/
+.nav-logo{
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    margin-left:-5px;
+}
+/**box2**/
+.address{
+    font-size: 0.8rem;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.add-icon{
+    display: flex;
+}
+.fa-solid{padding-bottom:2px;
+}
+.add-first{
+    margin-left:11px;
+}
+.add-second{
+    font-weight:bold;
+    font-size: 1rem;
+}
+/**box3**/
+.search-bar{
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.search-bar:hover{
+    border: 2px solid #febd69;
+}
+
+.all{
+    font-size: 1rem;
+    display:flex;
+    text-align: center;
+    width:50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.button-icon{
+    background-color:#febd69; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.6rem;
+    width:50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 40px;
+}
+
+.searchAmazon{
+    width:500px;
+    font-size: 1rem;
+}
+/**box4**/
+.hello{
+    font-size: .8rem;
+}
+
+.hbttom{
+    font-weight:bold;
+    font-size: 1rem;
+}
+.cart{
+    display: flex;
+}
+
+.logo{
+    font-size: 1.7rem;
+}
+
+.ctext{
+   text-align: center;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.pannel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-items p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+.pannel-items{
+    width:80%;
+    font-size: 0.95rem;
+    font-weight: bold;
+
+}
+.ball{
+    display: flex;
+    align-items: center;
+}
+.ball2{
+    padding:5px;
+}
+
+.prime{
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.hero-section{
+    background-image: url("hero.png");
+    height: 370px;
+    background-size: cover;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 530px;
+}
+
+.box {
+    height: 500px;
+    width:23%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius:4px;
+}
+
+.box:hover{
+    border:2px solid #febd69; 
+}
+
+.box-image{
+    padding-top:10px;
+    background-size: cover;
+    height: 320px;
+    width:230px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left:2rem;
+    margin-right: 2rem;
+}
+
+.heading{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.seemore{
+    color:rgb(42, 69, 137);
+}
+
+.seemore:hover{
+    font-weight: bold;
+}
+
+.signin{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 110px;
+    width:100%;
+
+    
+}
+
+.sign{
+    margin-top: 20px;
+    background-color:#febd69;
+    border-radius:5px;
+    border:2px solid rgb(216, 184, 20);
+}
+
+.signhtext{
+    margin-top: 10px;
+    font-weight: 50%;
+    font-size: 0.9rem;
+    padding-bottom: -50px;
+}
+
+.signtext{
+    font-size: .7rem;
+    margin-bottom: 5px;
+}
+
+.sign:hover{
+    border:2px solid black;
+}
+
+.footer{
+    padding-top:50px;
+    background-color:#0f1111;
+    height:300px;
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+
+}
+
+.footertop{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color:white;
+    background-color: #222f3d;
+    margin-top:auto;
+}
+
+.head p{
+    font-size:1.3rem;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+
+.ftext{
+    font-size: 1rem;
+    padding-bottom:7px;
+}
+
+.copyright{
+    height: 100px;
+    background-color: #222f3d;
+    color: white;
+    padding-top:40px;
+
+}
+.ctext{
+    font-size: 0.8rem;
+    padding:3px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mark:hover{
+    border-bottom:2px solid white;
+}
