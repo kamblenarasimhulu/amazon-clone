@@ -1,4 +1,4 @@
-amazon-clone
+amazon-clone:
 A interface/replica of amazon E-commerce website with several options and tabs.
 I Divided the webpage into three major parts
 1.Header/Navigation
